@@ -1,0 +1,24 @@
+.note {
+  width: calc(100vw - 322px);
+  height: calc(100vh - 125px);
+  box-sizing: border-box;
+}
+
+.note-container {
+  height: 100%;
+}
+
+.note-name {
+  padding: 25px 0 10px 10px;
+  font-size: 18px;
+}
+
+textarea {
+  padding: 10px;
+  width: 90%;
+  height: 90%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}

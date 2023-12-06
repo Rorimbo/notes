@@ -1,0 +1,11 @@
+<div class="note">
+  <div *ngIf="note; else nothing" class="note-container">
+    <div class="note-name">{{ note.name }}</div>
+    <textarea
+      placeholder="Введите что-нибудь"
+      [(ngModel)]="note.text"
+    ></textarea>
+  </div>
+
+  <ng-template #nothing>Такой заметки не существует</ng-template>
+</div>
